@@ -4,6 +4,8 @@ using System.Diagnostics;
 
 namespace LeaveManagmentSystem.Controllers
 {
+    //costumed Routing which is supported by default in asp .net 6 and later versions
+    //[Route("Home/Index/{id:int:regex(\\4d)}")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
